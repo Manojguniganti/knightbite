@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif; */
+}
+body {
+    overflow-y: scroll; /* Show scrollbars */
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, .12);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 150px;
+
+}
+#div1{
+    /* height: 100px; */
+    /* width: 100px; */
+    background-image: url(./images/kb_logo_new_2.png);
+    height: 76.5px;
+    width: 500px;
+    /* background: url(https://knight-bite.com/res/kb_logo_new_2.png); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+#ul{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    color: rgba(255, 255, 255, .781);
+    font-weight: 300;
+    list-style-type: none;
+    display: flex;
+    /* border: 2px solid red; */
+    width: 400px;
+    justify-content: flex-start;
+    gap: 40px;
+    padding-left: 14px;
+}
+#ul a{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    color: rgba(255, 255, 255, .781);
+    font-weight: 300;
+}
+
+#footer{
+    height: 50px;
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer p{
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+#sec1{
+    height: 700px;
+    background-image: url(./franchise/video-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec1 button,#sec2 button{
+    height: 40px;
+    width: 200px;
+    font-family: "Nunito", sans-serif;
+    background: #FF5672;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    /* text-align: center; */
+}
+#sec1 h1{
+    color: white;
+    font-size: 80px;
+    font-family: "Nunito", sans-serif;
+}
+#sec1 h3{
+    color: white;
+    font-size: 35px;
+    font-family: "Nunito", sans-serif;
+}
+#sec1 p{
+    color: white;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    cursor: pointer;
+}
+#sec2{
+    font-family: "Nunito", sans-serif;
+    padding: 90px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* border: 2px solid; */
+}
+#sec2 hr{
+    height: 3px;
+    background-color: #C77BF4;
+}
+#d1{
+    text-align: center;
+    /* width: 600px; */
+}
+#sec2 h2{
+    font-size: 35px;
+    text-align: center;
+}
+#d1 p{
+    font-size: 22px;
+}
+#d2 h4{
+    text-align: center;
+    color: #424242;
+    font-size: 20px;
+}
+#d2 p{
+    text-align: center;
+    color: #424242;
+    font-size: 15px;
+}
+#d2 img{
+    height: 80px;
+    width: 80px;
+}
+#d2 div{
+    width: 300px;
+    text-align: center;
+}
+#d2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sec2 #ps{
+    text-align: center;
+    margin-top: 8px;
+}
+#sec2 #apply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact img{
+    height: 40px;
+    width: 40px;
+}
+#contact span{
+    font-size: 17px;
+    margin-left: 15px;
+}
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+#div90{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5672;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px 2px 40px 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    cursor: pointer;
+}

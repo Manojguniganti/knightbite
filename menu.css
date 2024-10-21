@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif; */
+}
+body {
+    overflow-y: scroll; /* Show scrollbars */
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, .12);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 150px;
+
+}
+#div1{
+    /* height: 100px; */
+    /* width: 100px; */
+    background-image: url(./images/kb_logo_new_2.png);
+    height: 76.5px;
+    width: 500px;
+    /* background: url(https://knight-bite.com/res/kb_logo_new_2.png); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+#ul{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    color: rgba(255, 255, 255, .781);
+    font-weight: 300;
+    list-style-type: none;
+    display: flex;
+    /* border: 2px solid red; */
+    width: 400px;
+    justify-content: flex-start;
+    gap: 40px;
+    padding-left: 14px;
+}
+#ul a{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    color: rgba(255, 255, 255, .781);
+    font-weight: 300;
+}
+#footer{
+    height: 50px;
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer p{
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+#sec1{
+    height: 600px;
+    background-image: url(./menu/banner.webp);
+}
+#sec1 h1{
+    color: white;
+    font-size: 30px;
+}
+#sec1 .img{
+    height: 130px;
+    width: 110px;
+}
+#sec1 #div10{
+    display: flex;
+    justify-content: center;
+    /* gap: 40px; */
+}
+#sec1 .div11{
+    width: 300px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+#sec1 .img1{
+    height: 100px;
+    width: 80px;
+}
+#sec1 a{
+    text-decoration: none;
+}
+#div90{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5672;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px 2px 40px 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    cursor: pointer;
+}
